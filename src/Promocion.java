@@ -26,12 +26,14 @@ public class Promocion {
 
     // Método para entregar el código
     public void darcodigo(String codigo) {
-        //si codigo entregado es verdadero
+        //si codigo entregado es falso
         if (!codigoEntregado) {
             System.out.println("Enhorabuena, tu código es: " + codigo);
             //asi si vuelve a s er llamado ira al else 
             codigoEntregado = true; // Marcamos que el código ya se ha entregado
-        } else {
+        } 
+        //hemos cambiado a true por lo tanto pasa aqui
+        else {
             System.out.println("No te podemos mas mas codigos se siente ");
         }
     }

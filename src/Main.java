@@ -11,8 +11,8 @@ public class Main {
 
         // Intentamos dar el código
         System.out.println("\nIntento de mostrar los códigos:");
-        codigo1.darcodigo("skibidi toilet 777");  // Este es el código concedido en el primer intento.
-        codigo2.darcodigo("saquenme de aqui 689");  // Ya no se debería entregar un nuevo código, y se muestra el mensaje adecuado.
+        codigo1.darcodigo("dfghtr56trgy6");  // Este es el código concedido en el primer intento.
+        codigo2.darcodigo("ty76tyu8i8766");  // Ya no se debería entregar un nuevo código, y se muestra el mensaje adecuado.
     }
 }
 
